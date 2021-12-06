@@ -37,12 +37,28 @@
                 #page1 > header{
                     height: 30%;
                     border-bottom: 3px solid #FFF;
-                    padding: 3cm 3cm 1cm 3cm ;
+                    padding: 0cm 3cm 0cm 3cm ;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
                 }
                     #page1 > header > h1{
-                        font-size: 48px;
+                        font-size: 72px;
                         font-weight: 500;
-                        line-height: 52px;
+                        line-height: 74px;
+                    }
+                    #page1 > header > #dados{
+                        display: flex;
+                    }
+                    #page1 > header > #dados div h3{
+                        font-weight: 550;
+                        margin-top: 2mm;
+                    }
+                    #page1 > header > #dados > #dados-input h3{
+                        font-weight: 400;
+                        color: #4D4D4D;
+                        padding-left: 10mm;
                     }
                 #page1 > main{
                     height: 60%;
@@ -225,8 +241,9 @@
                         font-weight: 500;
                     }
 
+        </style>
 
-
+        <style>
 
         </style>
     
@@ -236,9 +253,19 @@
     <section id="page1" class="pages">
         <header>
             <h1><strong>Report</strong><br>Estudo de Viabilidade</h1>
-            <h3>Solicitante</h3>
-            <h3>Email</h3>
-            <h3>Telefone</h3>
+            <div id="dados">
+                <div>
+                    <h3>Solicitante</h3>
+                    <h3>Email</h3>
+                    <h3>Telefone</h3>
+                </div>
+                <div id="dados-input">
+                    <h3>Nome Sobrenome</h3>
+                    <h3>nome.sobrenome@marca.com</h3>
+                    <h3>+55 51 99999-9999</h3>
+                </div>
+
+            </div>
         </header>
         <main>
             <h1>Place</h1>
