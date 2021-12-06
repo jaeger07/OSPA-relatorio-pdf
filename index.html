@@ -37,7 +37,7 @@
                 #page1 > header{
                     height: 30%;
                     border-bottom: 3px solid #FFF;
-                    padding: 0cm 3cm 0cm 3cm ;
+                    padding: 0cm 2cm 0cm 3cm ;
 
                     display: flex;
                     flex-direction: column;
@@ -62,18 +62,26 @@
                     }
                 #page1 > main{
                     height: 60%;
-                    padding: 3cm 3cm 1cm 3cm ;
+                    padding: 5cm 3cm;
                     display: flex;
                     flex-direction: column;
                     justify-content: flex-end;
                 }
-                #page1 > main > h1{
-                    font-size: 98px;
+                    #page1 > main > h1{
+                        font-size: 120px;
+                        line-height: 130px;
+                    }
+                    #page1 > main > h3{
+                        font-size: 32px;
+                        font-weight: 500;
+                    }
+                #page1 > footer {
+                    display: flex;
+                    align-items: center;
                 }
-                #page1 > main > h3{
-                    font-size: 32px;
-                    font-weight: 500;
-                }
+
+        /* PÁGINA 02*/
+
                 #page2>header{
                     background: #C9D0D0;
                     height: 15%;
@@ -129,6 +137,7 @@
                     margin-right: 15px;
                 }
 
+        /*PÁGINA 03*/
 
                 #page3 header{
                     background: #C9D0D0;
@@ -151,59 +160,61 @@
                     display: flex;
                     justify-content: space-between;
                 }
-                        .dados-left{
-                            width: 45%;
-                            height: 100%;
+                    .dados-left{
+                        width: 45%;
+                        height: 100%;
+                    }
+                    .dados-right{
+                        width: 45%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                    .dados div .linhas{
+                        padding: 1.5mm 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                        .dados div .linhas .img-linha1{
+                            height: 0;
+                            width: 80%;
+                            border-bottom: 2px solid #C9D0D0;
+                            margin: 0 4mm;
                         }
-                        .dados-right{
-                            width: 45%;
-                            height: 100%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-between;
-                        }
-                        .dados div .linhas{
-                            padding: 1.5mm 0;
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-between;
-                        }
-                            .dados div .linhas .img-linha1{
-                                height: 0;
-                                width: 80%;
-                                border-bottom: 2px solid #C9D0D0;
-                                margin: 0 4mm;
-                            }
-                        .caixa-verde{
-                            background: #bcdad8;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            padding: 3mm;
-
-                        }
-                            .coluna3{
-                                width: 30%;
-                            }
-
-                    #page3 main #mapa3{
-                        display: block;
-                            height: 40%;
-                            width: 100%;
-                        }
-                    #page3 footer{
+                    .caixa-verde{
+                        background: #bcdad8;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        background: #F1F1F1;
-                        padding: 0 2cm ;
+                        padding: 3mm;
+
                     }
-                        #page3 footer .linha-footer{
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
+                        .coluna3{
+                            width: 30%;
                         }
 
+                #page3 main #mapa3{
+                    display: block;
+                        height: 40%;
+                        width: 100%;
+                    }
+                #page3 footer{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background: #F1F1F1;
+                    padding: 0 2cm ;
+                }
+                    #page3 footer .linha-footer{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        
+        /*PÁGINA 04*/
+        
                 #page4{
                     background-color: #CDCDCD;
                 }
@@ -243,7 +254,8 @@
 
         </style>
 
-        <style>
+        <style> 
+            /* VARIÁVEIS */
 
         </style>
     
